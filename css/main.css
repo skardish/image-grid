@@ -73,4 +73,29 @@ img:nth-child(2), img:nth-child(5) {
 
 @media only screen and (min-width: 60em) {
 
+  img:nth-child(1) {
+    float: left;
+    width: 66.6666%;
+  }
+
+  img:nth-child(2) {
+    float: right;
+    width: 33.3333%;
+  }
+
+  img:nth-child(3) {
+    float: left;
+    width: 33.3333%;
+  }
+
+  img:nth-child(5) {
+    float: right;
+    width: 33.3333%;
+  }
+
+  img:nth-child(4) {
+    float: inherit;
+    width: 33.3333%;
+  }
+
 }
