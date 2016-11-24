@@ -89,6 +89,7 @@ img:nth-child(2), img:nth-child(5) {
   }
 
   img:nth-child(5) {
+    display: block;
     float: right;
     width: 33.3333%;
   }
