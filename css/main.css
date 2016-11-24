@@ -25,3 +25,7 @@ img {
   float: left;
   width: 100%;
 }
+
+img:nth-child(2), img:nth-child(5) {
+  display: none;
+}
